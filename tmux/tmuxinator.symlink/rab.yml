@@ -1,0 +1,6 @@
+name: rab
+root: ~/projects/web_sites/rabble
+pre: git pull
+windows:
+  - shell: 
+  - datomic: datomic

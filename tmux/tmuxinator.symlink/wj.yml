@@ -1,0 +1,7 @@
+project_name: wj
+project_root: ~/projects/web_sites/weatherjerk
+pre: git pull
+windows:
+  - shell: 
+  - angular_server: cd html-app && grunt server
+

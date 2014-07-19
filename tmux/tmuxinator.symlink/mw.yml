@@ -1,0 +1,8 @@
+project_name: mw
+project_root: ~/projects/web_sites/magewars-deckbuilder
+pre: git pull
+windows:
+  - shell: 
+  - hoplon: boot watch development server
+  - datomic: datomic
+  - compass: cd resources/assets/styles && compass watch

@@ -8,3 +8,6 @@ then
   alias ll="gls -l --color"
   alias la='gls -A --color'
 fi
+
+# list open ports
+alias "oports"="sudo lsof -i -P | grep -i \"listen\""

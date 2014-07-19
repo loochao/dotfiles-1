@@ -1,0 +1,12 @@
+# ~/.tmuxinator/nicu.yml
+# you can make as many tabs as you wish...
+
+project_name: nicu
+project_root: ~/projects/web_sites/nicu
+rvm: 1.9.3
+tabs:
+  - backend_server: cd neonatal-backend && git pull && rails s
+  - angular_server: cd aetna_nicu/html-app && git pull && grunt server
+  - console: cd neonatal-backend && rails c
+  - backend_shell: cd neonatal-backend
+  - angular_shell: cd aetna_nicu

@@ -1,0 +1,9 @@
+# ~/.tmuxinator/nicu.yml
+# you can make as many tabs as you wish...
+
+project_name: page-transitions
+project_root: ~/projects/web_sites/page-transitions
+rvm: 1.9.3
+tabs:
+  - angular_server: git pull && grunt server
+  - angular_shell: 

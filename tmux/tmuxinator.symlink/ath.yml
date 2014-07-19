@@ -1,0 +1,7 @@
+name: ath
+root: ~/projects/web_sites/athens
+# pre: git pull
+windows:
+  - shell: 
+  - angular_server: cd html-app && grunt server
+  - datomic: datomic

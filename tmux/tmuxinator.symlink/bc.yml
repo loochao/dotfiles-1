@@ -1,0 +1,8 @@
+project_name: bc
+project_root: ~/projects/web_sites/brave-clojure-web
+pre: git pull
+windows:
+  - shell: 
+  - nanoc_guard: guard
+  - nanoc_view: nanoc view
+  - lein_repl: lein repl

@@ -1,0 +1,1 @@
+alias "datomic"="~/src/datomic/current/bin/transactor ~/src/datomic/current/config/samples/free-transactor-template.properties"

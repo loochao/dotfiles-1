@@ -1,0 +1,9 @@
+--type-add=lisp=.lisp
+--type-add=ruby=.haml,.rake,.erb
+
+--type-set=coffee=.coffee,.coffee.js
+--type-set=markdown=.md,.markdown
+--type-set=sass=.scss,.sass
+--type-set=textile=.textile
+--type-set=txt=.txt
+--type-set=clojure=.clj,.edn,.cljs

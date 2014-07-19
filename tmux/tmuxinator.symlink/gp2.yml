@@ -1,0 +1,10 @@
+# ~/.tmuxinator/gp2.yml
+
+name: gp2
+root: ~/projects/web_sites/gp2
+pre: git pull
+windows:
+  - shell: 
+  - angular_server: cd html-app && grunt server
+  - datomic: datomic
+  - deploy: cd infrastructure

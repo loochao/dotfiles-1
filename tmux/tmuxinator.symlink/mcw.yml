@@ -1,0 +1,6 @@
+project_name: mcw
+project_root: ~/projects/web_sites/mcwordy
+windows:
+  - shell: 
+  - angular_server: cd html-app && grunt server
+  - datomic: datomic

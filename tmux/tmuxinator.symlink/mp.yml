@@ -1,0 +1,6 @@
+project_name: mp
+project_root: ~/projects/web_sites/magepunch
+pre: git pull
+windows:
+  - shell:
+  - datomic: datomic
