@@ -1,2 +1,2 @@
 export SHELL=zsh
-export PATH=$SHELL -i -c 'echo $PATH'
+export PATH=`$SHELL -i -c 'echo $PATH'`
