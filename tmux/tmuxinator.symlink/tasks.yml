@@ -1,0 +1,8 @@
+name: tasks
+root: ~/projects/web_sites/tasks
+pre: git pull
+windows:
+  - shell:
+  - rails_console: rails c
+  - rails_server: rails s
+  
