@@ -1,0 +1,9 @@
+name: can
+root: ~/projects/web_sites/canvas
+pre: git pull
+windows:
+  - shell: 
+  - grunt: rvm use 1.9.3-p392 && grunt serve
+  - seneca: node node_modules/seneca/server.js config/config.json
+  - skeuos: cd ../skeuos-server && rails s
+  
