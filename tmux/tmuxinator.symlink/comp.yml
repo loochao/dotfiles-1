@@ -1,0 +1,6 @@
+name: comp
+root: ~/projects/web_sites/component-demo
+pre: git pull
+windows:
+  - shell: 
+  - datomic: datomic
