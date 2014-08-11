@@ -3,4 +3,5 @@ root: ~/projects/web_sites/gromit
 pre: git pull
 windows:
   - shell: 
-  - angular_server: cd html-app && grunt server
+  - server: cd server && lein run server
+  - repo: cd server/repo

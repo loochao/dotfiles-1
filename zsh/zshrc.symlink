@@ -27,7 +27,7 @@ do
   source $file
 done
 
-#oh-my-zsh
+# oh-my-zsh
 export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="mine"
 plugins=(git git-prompt)
@@ -45,3 +45,6 @@ do
 done
 
 unset config_files
+
+# mux window titles
+export DISABLE_AUTO_TITLE=true
