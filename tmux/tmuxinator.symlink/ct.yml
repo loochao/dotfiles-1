@@ -1,0 +1,6 @@
+name: ct
+root: ~/projects/web_sites/cocktails
+pre: git pull
+windows:
+  - shell: 
+  - angular_server: cd html-app && grunt serve

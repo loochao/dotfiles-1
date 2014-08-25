@@ -4,4 +4,4 @@ pre: git pull
 windows:
   - shell: 
   - server: cd server && lein run server
-  - repo: cd server/repo
+  - repo: cd repo
