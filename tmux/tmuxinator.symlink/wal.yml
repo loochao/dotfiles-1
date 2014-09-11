@@ -3,5 +3,5 @@ root: ~/projects/web_sites/wallace
 pre: git pull
 windows:
   - shell: 
-  - angular_server: cd html-app && grunt server
+  - angular_server: cd html-app && grunt serve
   - mongo: mongod

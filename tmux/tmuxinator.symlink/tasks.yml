@@ -1,6 +1,6 @@
 name: tasks
 root: ~/projects/web_sites/tasks
-pre: git pull
+pre: git pull && mysql.server start
 windows:
   - shell:
   - rails_console: rails c
