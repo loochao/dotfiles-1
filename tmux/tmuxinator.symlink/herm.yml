@@ -1,0 +1,7 @@
+name: herm
+root: ~/projects/web_sites/hermes
+pre: git pull; mysql.server start
+windows:
+  - shell: 
+  - server: cd server
+  - mock: cd server && lein run mock-server
