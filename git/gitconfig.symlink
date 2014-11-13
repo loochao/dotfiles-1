@@ -20,7 +20,7 @@
   prompt = false
 [core]
   editor = vim
-  excludesfile = ~/.gitignore
+	excludesfile = /Users/danielhigginbotham/.gitignore
 [diff]
   tool = Kaleidoscope
 [push]
@@ -29,3 +29,9 @@
   insteadOf = git://github.com
 [help]
   autocorrect = 1
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
