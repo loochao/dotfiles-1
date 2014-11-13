@@ -1,0 +1,8 @@
+name: yes
+root: ~/projects/web_sites/yesand
+pre: git pull
+windows:
+  - shell:
+  - rails_console: rails c
+  - rails_server: bund unicorn_rails
+  - mongodb: mongod

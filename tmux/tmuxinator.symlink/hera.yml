@@ -1,8 +1,8 @@
 name: hera
 root: ~/projects/web_sites/hermes-admin
-pre: r2 && git pull && mysql.server start
+pre: git pull && mysql.server start
 windows:
-  - shell: r2
-  - rails_console: r2 && rails c
-  - rails_server: r2 && rails s 
+  - shell: 
+  - rails_console: rails c
+  - rails_server: rails s 
   
