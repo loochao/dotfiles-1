@@ -33,9 +33,6 @@ ZSH_THEME="mine"
 plugins=(git git-prompt)
 source $ZSH/oh-my-zsh.sh
 
-# chruby
-source /usr/local/opt/chruby/share/chruby/chruby.sh
-
 # initialize autocomplete here, otherwise functions won't be loaded
 autoload -U compinit
 compinit
@@ -52,5 +49,8 @@ unset config_files
 export DISABLE_AUTO_TITLE=true
 
 # default ruby
-source /usr/local/share/chruby/chruby.sh
-source /usr/local/share/chruby/auto.sh
+if [ -e "/usr/local/share/chruby" ]
+then
+  source /usr/local/share/chruby/chruby.sh
+  source /usr/local/share/chruby/auto.sh
+fi

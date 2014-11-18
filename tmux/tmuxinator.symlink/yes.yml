@@ -1,8 +1,7 @@
-name: yes
-root: ~/projects/web_sites/yesand
+name: "yes"
+root: ~/projects/web_sites/yesandministry
 pre: git pull
 windows:
   - shell:
-  - rails_console: rails c
-  - rails_server: bund unicorn_rails
-  - mongodb: mongod
+  - nanoc_guard: guard
+  - nanoc_view: nanoc view
