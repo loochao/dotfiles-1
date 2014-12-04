@@ -1,0 +1,6 @@
+name: "moon"
+root: ~/projects/web_sites/moonstuff
+pre: git pull
+windows:
+  - shell: open http://localhost:4567
+  - middleman: bund middleman server

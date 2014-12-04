@@ -1,5 +1,5 @@
-name: "yes"
-root: ~/projects/web_sites/yesandministry
+name: "blog"
+root: ~/projects/web_sites/nanoc-blog
 pre: git pull
 windows:
   - shell: open http://localhost:3000

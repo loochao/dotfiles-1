@@ -1,16 +1,14 @@
-#clean up your mess
-alias rsyncl='rsync -ave ssh guide/public/ flyingma@visualmess.com:/home/flyingma/visualmess.com'
-
 #blog
-alias rsyncb='rsync -ave ssh ~/projects/web_sites/nanoc-blog/output/* flyingma@visualmess.com:/home/flyingma/flyingmachinestudios.com'
-alias rsyncn='rsync -ave ssh ~/projects/web_sites/nonbeginners/output/* flyingma@visualmess.com:/home/flyingma/nonbeginners.com'
-alias rsyncc='rsync -ave ssh ~/projects/web_sites/brave-clojure-web/output/* flyingma@visualmess.com:/home/flyingma/braveclojure.com'
+alias rsyncb='rsync -ave ssh ~/projects/web_sites/nanoc-blog/output/* aso:/home/flyingm1/public_html'
 
-# doc template
-alias rsyncdt='rsync -ave ssh ~/projects/web_sites/doctemplate/output/* flyingma@visualmess.com:/home/flyingma/flyingmachinestudios.com/doctemplate'
+# brave clojure
+alias rsyncc='rsync -ave ssh ~/projects/web_sites/brave-clojure-web/output/* aso:/home/flyingm1/public_html/braveclojure.com'
+
+#clean up your mess
+alias rsyncl='rsync -ave ssh ~/projects/web_sites/clean-up-your-mess/guide/public/ aso:/home/flyingm1/public_html/visualmess.com'
 
 #whoops
-alias rsyncw='rsync -ave ssh ~/projects/web_sites/whoops/doc/site/output/* flyingma@visualmess.com:/home/flyingma/whoopsapp.com'
+alias rsyncw='rsync -ave ssh ~/projects/web_sites/whoops/doc/site/output/* aso:/home/flyingm1/public_html/whoopsapp.com'
 
-#constant awesome
-alias rsyncca='rsync -ave ssh output/ flyingma@visualmess.com:/home/flyingma/constantawesome.com'
+#yes and
+alias rsyncy='rsync -ave ssh ~/projects/web_sites/yesandministry/output/* aso:/home/flyingm1/public_html/ministryofyesand.com'
