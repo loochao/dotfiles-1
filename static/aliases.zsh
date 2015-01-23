@@ -12,3 +12,6 @@ alias rsyncw='rsync -ave ssh ~/projects/web_sites/whoops/doc/site/output/* aso:/
 
 #yes and
 alias rsyncy='rsync -ave ssh ~/projects/web_sites/yesandministry/output/* aso:/home/flyingm1/public_html/ministryofyesand.com'
+
+#moon
+alias rsyncm='rsync -ave ssh ~/projects/web_sites/moonstuff/build/* aso:/home/flyingm1/public_html/moonstuff.graphics'
