@@ -1,9 +1,9 @@
 name: canh
 root: ~/projects/web_sites/canvas
-pre: git pull
+pre: git co hermes && git pull
 windows:
   - shell: 
-  - grunt: grunt serve
-  - seneca: node node_modules/seneca/server.js config/config_hermesdev.json
-  - skeuos: cd ../skeuos-server && rails s -p 8030
+  - grunt: chruby ruby-2.0.0 && grunt serve
+  - seneca: node_modules/seneca/server.js config/config_hermesdev.json
+  - skeuos: cd ../skeuos-server && rails s -p 8050
   

@@ -1,1 +1,1 @@
-alias sonos='rsync -aruv --include="*/" --include="*.m*" --exclude="*" /Users/daniel/Music/iTunes/iTunes\ Music/ /Volumes/USB_Storage/daniel/music/'
+alias sonos='rsync -aruv --include="*/" --include="*.m*" --exclude="*" /Volumes/peapod/iTunes\ Stuffs/Music/ /Volumes/USB_Storage/daniel/music/'
